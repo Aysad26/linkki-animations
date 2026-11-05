@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1448" height="1086" viewBox="0 0 1448 1086">
+  <defs>
+    <clipPath id="front"><path d="M 534 575 749 589 750 758 534 738 Z"/></clipPath>
+    <clipPath id="side"><path d="M 749 589 905 557 906 719 750 758 Z"/></clipPath>
+    <linearGradient id="board" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#9db4db"/><stop offset="1" stop-color="#92aacf"/>
+    </linearGradient>
+    <linearGradient id="front-board">
+      <stop stop-color="#bacdeb"/><stop offset=".95" stop-color="#bcccea"/><stop offset="1" stop-color="#c2d2ee"/>
+    </linearGradient>
+    <filter id="soft" x="-.2" y="-.2" width="1.4" height="1.4"><feGaussianBlur stdDeviation="3"/></filter>
+    <mask id="side-repair">
+      <path fill="white" filter="url(#soft)" d="M 760 651 Q 784 645 810 664 Q 837 672 855 699 L 901 718 914 729 748 771 745 712 751 689 Z"/>
+    </mask>
+    <mask id="front-repair">
+      <path fill="white" filter="url(#soft)" d="M 691 735 Q 713 729 727 729 Q 741 722 751 720 L 756 768 688 771 Z"/>
+    </mask>
+  </defs>
+  <g clip-path="url(#front)" mask="url(#front-repair)">
+    <path fill="url(#front-board)" d="M 680 718 H 753 V 767 H 680 Z"/>
+    <path d="M 684 751 750 758" fill="none" stroke="#7f9ac4" stroke-width="1.5"/>
+  </g>
+  <g clip-path="url(#side)" mask="url(#side-repair)">
+    <path fill="url(#board)" d="M 745 642 H 912 V 763 H 745 Z"/>
+    <path d="M 749 690 750 758 906 719 905 666" fill="none" stroke="#49658c" stroke-width="2.8"/>
+    <path d="M 752 700 753 755" fill="none" stroke="#b9d1ef" stroke-width="1.5"/>
+  </g>
+</svg>

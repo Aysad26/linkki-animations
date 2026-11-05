@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8fafc">
+  <title>LINKKI — от двери до двери</title>
+  <meta name="description" content="Международная доставка грузов для бизнеса. Посмотрите, как проходит путь вашего отправления с LINKKI — от двери отправителя до двери получателя.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="assets/linkki-logo.png">
+  <link rel="preload" href="assets/onest-600.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/land-110m.json" as="fetch" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="motion/gallery.css">
+  <link rel="stylesheet" href="home/motion-kit.css">
+  <link rel="stylesheet" href="animation-hub.css">
+  <link rel="stylesheet" href="motion/delivery-sliders.css">
+  <link rel="stylesheet" href="motion/icon-sliders.css">
+  <script src="app.js" type="module"></script>
+  <script src="motion/app.js" type="module"></script>
+  <script src="animation-hub.js" type="module"></script>
+  <script src="motion/delivery-sliders.js" type="module"></script>
+  <script type="module" src="motion/icon-sliders.js"></script>
+</head>
+<body>
+<a class="skip" href="#journey">Перейти к маршруту</a>
+<header class="header">
+  <a class="brand" href="#top" aria-label="LINKKI — на главную"><img src="assets/linkki-logo.png" width="158" height="26" alt="LINKKI"></a>
+  <nav class="nav" aria-label="Основная навигация">
+    <a href="#journey">Путь груза</a><a href="#animations">Все анимации</a><a href="#approach">Наш подход</a><a href="#questions">Вопросы</a>
+  </nav>
+  <a class="header-link" href="#step-1">Отправиться в путь <span aria-hidden="true">↗</span></a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Открыть меню"><span></span><span></span></button>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Мобильная навигация" hidden><a href="#journey">Путь груза</a><a href="#animations">Все анимации</a><a href="#approach">Наш подход</a><a href="#questions">Вопросы</a></nav>
+  <div class="reading-line" aria-hidden="true"><i></i></div>
+</header>
+<main>
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-topline"><span class="eyebrow"><i></i> Международная доставка для бизнеса</span><span class="hero-note">От двери<br> до двери</span></div>
+    <div class="hero-head"><h1 id="hero-title">Расстояния —<br> <span>наша забота.</span></h1></div>
+    <div class="hero-bottom">
+      <div class="hero-copy"><p>Вы развиваете бизнес.<br> Мы связываем отправителя<br> и получателя — через границы.</p><a class="round-link" href="#journey"><span class="round-arrow" aria-hidden="true">↓</span><span>Как это работает</span></a></div>
+      <div class="hero-scene" role="img" aria-label="Объёмный глобус: маршруты расходятся от Москвы, дальние дуги уходят за сферу">
+        <div class="globe-shadow" aria-hidden="true"></div>
+        <canvas class="globe-surface" aria-hidden="true"></canvas>
+        <canvas class="globe-routes" aria-hidden="true"></canvas>
+        <span class="hero-coordinate">Между странами. Между людьми.</span>
+      </div>
+    </div>
+    <div class="hero-baseline"><span>Логистика с человеческим лицом</span><span>Листайте, чтобы пройти весь путь <span aria-hidden="true">↓</span></span></div>
+  </section>
+
+  <section class="journey-intro wrap" id="journey">
+    <span class="eyebrow">Один груз. Один понятный маршрут.</span>
+    <div class="intro-grid"><h2>За простой доставкой —<br> слаженная работа.</h2><p>Заявка, документы, склады, перелёт.<br> Мы соединяем этапы в один путь,<br> чтобы вам было проще.</p></div>
+    <nav class="route-nav" aria-label="Этапы пути"><a href="#step-1"><span>01</span>Забираем</a><a href="#step-2"><span>02</span>Готовим</a><a href="#step-3"><span>03</span>Перевозим</a><a href="#step-4"><span>04</span>Оформляем</a><a href="#step-5"><span>05</span>Направляем</a><a href="#step-6"><span>06</span>Вручаем</a></nav>
+  </section>
+
+  <div class="journey" id="route">
+    <section class="chapter" id="step-1" data-scene="pickup" aria-labelledby="title-1">
+      <div class="chapter-sticky"><div class="chapter-inner">
+        <div class="chapter-top"><span>Путь вашего груза</span><span>Отправление / 01—06</span></div>
+        <div class="chapter-number" aria-hidden="true">01</div>
+        <div class="chapter-copy"><span class="eyebrow">Заявка клиента → Отправитель</span><h2 id="title-1">Начнём<br> у вашей<br> <em>двери.</em></h2><p>Вы готовите отправление.<br> Курьер приезжает в ваш офис<br> и забирает груз. Без поездок<br> по складам и лишних хлопот.</p><div class="chapter-detail"><i></i> Забор груза у отправителя</div></div>
+        <div class="scene scene-pickup" role="img" aria-label="Сотрудница компании с коробкой и курьер встречаются у дверей офиса">
+          <img class="layer office-bg" src="assets/office.webp" alt="" loading="lazy" width="1672" height="941">
+          <div class="layer pickup-sender"><img src="assets/sender.webp" alt="" loading="lazy" width="1145" height="1374"></div>
+          <div class="layer pickup-courier"><img src="assets/courier-pickup.webp" alt="" loading="lazy" width="1124" height="1399"><img class="uniform-logo pickup-logo" src="assets/linkki-logo.png" alt=""></div>
+          <div class="scene-ground"></div>
+        </div>
+        <div class="chapter-bottom"><span>Доставка начинается с людей</span><span class="stage-scroll">Продолжайте листать <b aria-hidden="true">↓</b></span><div class="chapter-meter" aria-hidden="true"><i></i></div></div>
+      </div></div>
+    </section>
+
+    <section class="chapter chapter-ice" id="step-2" data-scene="conveyor" aria-labelledby="title-2">
+      <div class="chapter-sticky"><div class="chapter-inner">
+        <div class="chapter-top"><span>Путь вашего груза</span><span>Подготовка / 02—06</span></div>
+        <div class="chapter-number" aria-hidden="true">02</div>
+        <div class="chapter-copy"><span class="eyebrow">Склад LINKKI → Экспортное оформление</span><h2 id="title-2">Всё готово<br> к большому<br> <em>пути.</em></h2><p>Принимаем и сортируем отправление<br> на складе в стране отправления.<br> Маркировка и документы помогают<br> грузу пройти следующие этапы.</p><div class="chapter-detail"><i></i> Подготовка к международной перевозке</div></div>
+        <div class="scene scene-conveyor" role="img" aria-label="Коробка движется по роликовому конвейеру, и сканер считывает её штрихкод">
+          <div class="warehouse-lines" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          <div class="conveyor-unit">
+            <img class="conveyor-belt" src="assets/conveyor.webp" alt="" loading="lazy" width="2172" height="724">
+            <svg class="conveyor-reader" viewBox="0 0 2172 724" aria-hidden="true">
+              <defs>
+                <linearGradient id="reader-metal"><stop stop-color="#c0d4ed"/><stop offset=".55" stop-color="#829fc4"/><stop offset="1" stop-color="#56769e"/></linearGradient>
+                <linearGradient id="reader-arm" x2=".15" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#d6e5f6"/><stop offset="1" stop-color="#6c8bb4"/></linearGradient>
+                <linearGradient id="reader-shell" x2=".1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#5476a3"/><stop offset=".55" stop-color="#2b4a78"/><stop offset="1" stop-color="#20395d"/></linearGradient>
+              </defs>
+              <g stroke="#46638b" stroke-width="4" stroke-linejoin="round">
+                <path d="M922 181 947 159 997 158 1014 171 991 194 929 196Z" fill="#667f9f"/>
+                <path d="M922 181 990 180 1014 161 1014 171 991 194 929 196Z" fill="#49688e"/>
+                <path d="M922 181 947 159 996 158 1014 161 990 180Z" fill="#a4bbd8"/>
+                <path d="M947 174V-282L981-284V170L970 179Z" fill="url(#reader-metal)"/>
+                <path d="M981-284 997-296 997 161 981 170Z" fill="#56779f"/>
+                <path d="M947-282 962-296 997-296 981-284Z" fill="#cadcf1"/>
+                <path d="M947-282 962-298 1074-328 1099-318 981-281Z" fill="#dce9f8"/>
+                <path d="M981-281 1099-318 1099-291 981-254Z" fill="url(#reader-arm)"/>
+                <path d="M947-282 981-281 981-254 947-257Z" fill="#9eb6d4"/>
+                <path d="M1038-294 1116-308 1162-290 1080-273Z" fill="#89a5cb"/>
+                <path d="M1038-294 1080-273 1080-238 1038-257Z" fill="#304e79"/>
+                <path d="M1080-273 1162-290 1162-254 1080-238Z" fill="url(#reader-shell)"/>
+                <path d="M1050-257 1080-243 1151-255 1136-244 1078-233Z" fill="#1d3559"/>
+              </g>
+              <path d="M951-271V164 M988-272l105-34" stroke="#e0ecfa" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+              <path d="m1093-262 32-6" stroke="#a9c4e3" stroke-width="6" stroke-linecap="round"/>
+              <path class="reader-indicator" d="m1093-262 32-6" stroke="#f4faff" stroke-width="6" stroke-linecap="round"/>
+              <path d="m1079-241 43-8" stroke="#86aed7" stroke-width="6" stroke-linecap="round"/>
+            </svg>
+            <div class="conveyor-cargo"><span class="cargo-contact" aria-hidden="true"></span><img class="conveyor-parcel" src="assets/parcel-front-v2.webp" alt="" loading="lazy" width="1510" height="1041"></div>
+            <svg class="conveyor-reader-light" viewBox="0 0 2172 724" aria-hidden="true">
+              <defs><linearGradient id="reader-light" x2="0" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#e9f5ff" stop-opacity=".8"/><stop offset="1" stop-color="#86c0fb" stop-opacity=".27"/></linearGradient></defs>
+              <path d="M1085-240 1117-246 1155 147 1035 147Z" fill="url(#reader-light)"/>
+              <path d="M1040 148h109" stroke="#e9f5ff" stroke-width="5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="floating-caption parcel-caption"><span class="small-cross" aria-hidden="true">+</span> У каждого груза — свой номер</span>
+          <div class="conveyor-trace" aria-hidden="true"><i></i><i></i><i></i></div>
+        </div>
+        <div class="chapter-bottom"><span>Порядок в деталях</span><span class="stage-scroll">Дальше — международный маршрут <b aria-hidden="true">↓</b></span><div class="chapter-meter" aria-hidden="true"><i></i></div></div>
+      </div></div>
+    </section>
+
+    <section class="chapter chapter-flight" id="step-3" data-scene="flight" aria-labelledby="title-3">
+      <div class="chapter-sticky"><div class="chapter-inner">
+        <div class="chapter-top"><span>Путь вашего груза</span><span>Перевозка / 03—06</span></div>
+        <div class="chapter-number" aria-hidden="true">03</div>
+        <div class="chapter-copy"><span class="eyebrow">Терминал убытия → Международный перевозчик</span><h2 id="title-3">Между<br> странами —<br> <em>на связи.</em></h2><p>Груз поступает в терминал убытия<br> и отправляется международным<br> перевозчиком. Расстояние становится<br> ещё одним этапом маршрута.</p><div class="chapter-detail"><i></i> Международная перевозка</div></div>
+        <div class="scene scene-flight" role="img" aria-label="Вид сверху: самолёт движется вперёд, аэропорт и город под ним отдаляются">
+          <div class="route-art flight-frame">
+            <div class="flight-ground"><img src="assets/flight-ground.webp" alt="" loading="lazy" width="1448" height="1086"></div>
+            <img class="flight-aircraft" src="assets/flight-aircraft.webp" alt="" loading="lazy" width="1000" height="1000">
+          </div>
+          <span class="route-art-note">От страны отправления к стране назначения <span aria-hidden="true">↘</span></span>
+        </div>
+        <div class="chapter-bottom"><span>Расстояния преодолимы</span><span class="stage-scroll">Следующая точка — прибытие <b aria-hidden="true">↓</b></span><div class="chapter-meter" aria-hidden="true"><i></i></div></div>
+      </div></div>
+    </section>
+
+    <section class="chapter chapter-customs" id="step-4" data-scene="customs" aria-labelledby="title-4">
+      <div class="chapter-sticky"><div class="chapter-inner">
+        <div class="chapter-top"><span>Путь вашего груза</span><span>Оформление / 04—06</span></div>
+        <div class="chapter-number" aria-hidden="true">04</div>
+        <div class="chapter-copy"><span class="eyebrow">Терминал прибытия → Импортное оформление</span><h2 id="title-4">Внимание<br> к каждой<br> <em>детали.</em></h2><p>После прибытия груз проходит<br> импортное таможенное оформление.<br> Помогаем разобраться в документах<br> и подготовить нужные сведения.</p><div class="chapter-detail"><i></i> Таможенное оформление</div></div>
+        <div class="scene scene-customs" role="img" aria-label="На документах к отправлению по очереди появляются три отметки проверки и штамп о выпуске груза">
+          <svg class="route-art customs-art" viewBox="0 0 1448 1086" aria-hidden="true">
+            <defs>
+              <clipPath id="customs-stamp-cut"><path d="M1018 769 Q1016 778 1026 781 L1024 848 Q1024 857 1037 860 L1201 897 Q1215 900 1227 894 L1276 866 Q1284 861 1284 850 L1287 810 Q1291 807 1292 794 L1296 626 Q1297 601 1280 587 Q1244 565 1183 556 Q1137 548 1110 549 Q1088 550 1054 573 Q1030 590 1028 628 Z"/></clipPath>
+              <radialGradient id="customs-stamp-contact"><stop stop-color="#284571" stop-opacity=".55"/><stop offset="1" stop-color="#284571" stop-opacity="0"/></radialGradient>
+            </defs>
+            <image href="motion/assets/01-clean.webp" width="1448" height="1086"/>
+            <g fill="none" stroke="#2a4b7b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+              <path class="customs-tick customs-tick-1" pathLength="1" d="M626 619l9 11 39-18"/>
+              <path class="customs-tick customs-tick-2" pathLength="1" d="M577 679l9 11 42-19"/>
+              <path class="customs-tick customs-tick-3" pathLength="1" d="M524 742l9 11 40-20"/>
+            </g>
+            <g class="customs-imprint" transform="translate(-153 42) matrix(1 .218 -1.4 .92 1094 814)" fill="none" stroke="#294c80">
+              <rect x="11" y="5" width="165" height="37" rx="4" stroke-width="4"/>
+              <path d="m23 24 6 6 13-14" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+              <text x="53" y="31" stroke="none" fill="#294c80" font-family="Onest, sans-serif" font-weight="700" font-size="22" letter-spacing="1.8">ВЫПУСК</text>
+            </g>
+            <g class="customs-stamp-shadow"><ellipse cx="1153" cy="858" rx="136" ry="36" transform="rotate(12 1153 858)" fill="url(#customs-stamp-contact)"/></g>
+            <g class="customs-stamp"><image href="motion/assets/01.webp" width="1448" height="1086" clip-path="url(#customs-stamp-cut)"/></g>
+          </svg>
+          <div class="route-art-note customs-release" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4.5 4.5L19 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Груз выпущен</div>
+        </div>
+        <div class="chapter-bottom"><span>Сопровождение на важных этапах</span><span class="stage-scroll">Дальше — к получателю <b aria-hidden="true">↓</b></span><div class="chapter-meter" aria-hidden="true"><i></i></div></div>
+      </div></div>
+    </section>
+
+    <section class="chapter chapter-ice" id="step-5" data-scene="dispatch" aria-labelledby="title-5">
+      <div class="chapter-sticky"><div class="chapter-inner">
+        <div class="chapter-top"><span>Путь вашего груза</span><span>Доставка / 05—06</span></div>
+        <div class="chapter-number" aria-hidden="true">05</div>
+        <div class="chapter-copy"><span class="eyebrow">Склад LINKKI в стране назначения</span><h2 id="title-5">Уже<br> <em>совсем</em><br> рядом.</h2><p>На складе в стране назначения<br> отправление готовят к доставке.<br> Следующий адрес в маршруте —<br> офис получателя.</p><div class="chapter-detail"><i></i> Подготовка к последней миле</div></div>
+        <div class="scene scene-dispatch" role="img" aria-label="Фургон LINKKI подъезжает к палете, верхняя коробка опускается на нижнюю">
+          <svg class="dispatch-art" viewBox="0 0 1448 1086" aria-hidden="true">
+            <defs>
+              <clipPath id="dispatch-van-cut"><path d="M49 576 Q48 565 56 560 L56 537 L61 525 Q65 492 82 475 L137 441 L149 430 L151 418 Q153 413 161 413 L223 349 Q249 316 283 301 Q332 282 430 283 Q510 281 767 315 Q780 317 784 339 L795 385 L799 394 L798 409 L804 465 L805 538 L807 546 L805 560 L809 567 L807 583 Q806 597 799 600 L754 610 Q752 642 735 653 Q722 666 687 659 Q667 651 659 623 L558 624 Q549 648 532 651 L502 650 Q488 646 478 630 L382 637 Q377 661 361 681 Q347 695 320 696 Q277 696 260 649 L195 646 Q181 672 159 674 L132 675 Q107 671 94 635 L69 633 Q53 628 50 611 Z"/></clipPath>
+              <clipPath id="dispatch-carton-cut"><path d="M1002 516 Q1002 514 1007 513 L1218 502 L1304 522 Q1309 523 1310 527 L1310 665 Q1310 668 1306 670 L1086 682 L1004 655 Q1001 653 1001 650 Z"/></clipPath>
+              <radialGradient id="dispatch-contact"><stop stop-color="#183657" stop-opacity=".65"/><stop offset="1" stop-color="#315478" stop-opacity="0"/></radialGradient>
+              <radialGradient id="dispatch-wheel-contact"><stop stop-color="#142c4c" stop-opacity=".88"/><stop offset=".55" stop-color="#27476b" stop-opacity=".45"/><stop offset="1" stop-color="#315478" stop-opacity="0"/></radialGradient>
+            </defs>
+            <image href="assets/dispatch-plate.webp" width="1448" height="1086"/>
+            <g class="dispatch-moving-van">
+              <ellipse cx="414" cy="674" rx="409" ry="29" transform="rotate(-2.8 414 674)" fill="url(#dispatch-contact)"/>
+              <ellipse cx="320" cy="695" rx="65" ry="14" fill="url(#dispatch-wheel-contact)"/>
+              <ellipse cx="715" cy="662" rx="52" ry="11" fill="url(#dispatch-wheel-contact)"/>
+              <image href="assets/dispatch-master.webp" width="1448" height="1086" clip-path="url(#dispatch-van-cut)"/>
+              <image class="dispatch-brand" href="assets/linkki-logo.png" width="184" height="30.28" transform="matrix(1 .036 0 .92 533 361)"/>
+            </g>
+            <path class="dispatch-carton-shadow" d="M1002 652 1220 638 1325 669 1084 685Z" fill="#193655"/>
+            <g class="dispatch-moving-carton"><image href="assets/dispatch-master.webp" width="1448" height="1086" clip-path="url(#dispatch-carton-cut)"/></g>
+          </svg>
+        </div>
+        <div class="chapter-bottom"><span>Последние километры</span><span class="stage-scroll">Осталось вручить <b aria-hidden="true">↓</b></span><div class="chapter-meter" aria-hidden="true"><i></i></div></div>
+      </div></div>
+    </section>
+
+    <section class="chapter" id="step-6" data-scene="delivery" aria-labelledby="title-6">
+      <div class="chapter-sticky"><div class="chapter-inner">
+        <div class="chapter-top"><span>Путь вашего груза</span><span>Получение / 06—06</span></div>
+        <div class="chapter-number" aria-hidden="true">06</div>
+        <div class="chapter-copy"><span class="eyebrow">Курьер → Получатель</span><h2 id="title-6">В нужных<br> <em>руках.</em></h2><p>Курьер передаёт груз получателю<br> в его офисе. Путь через страны<br> завершается простой встречей.<br> И можно возвращаться к своим делам.</p><div class="chapter-detail"><i></i> От двери до двери. С LINKKI.</div></div>
+        <div class="scene scene-delivery" role="img" aria-label="Другой курьер вручает коробку сотруднику компании у дверей его офиса">
+          <img class="layer delivery-office" src="assets/office.webp" alt="" loading="lazy" width="1672" height="941">
+          <div class="layer delivery-courier"><img src="assets/courier-delivery.webp" alt="" loading="lazy" width="1124" height="1399"><img class="uniform-logo delivery-logo" src="assets/linkki-logo.png" alt=""></div>
+          <div class="layer delivery-recipient"><img src="assets/recipient.webp" alt="" loading="lazy" width="1145" height="1374"></div>
+          <div class="scene-ground"></div>
+          <span class="delivery-check" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="m5 12 4.5 4.5L19 7" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <div class="chapter-bottom"><span>Доставка заканчивается улыбкой</span><span class="stage-scroll">Груз доставлен <b aria-hidden="true">✓</b></span><div class="chapter-meter" aria-hidden="true"><i></i></div></div>
+      </div></div>
+    </section>
+  </div>
+
+  <section class="animation-hub" id="animations" aria-labelledby="animation-title">
+    <div class="wrap">
+      <header class="animation-intro">
+        <span class="eyebrow">LINKKI / В работе</span>
+        <h2 id="animation-title">Все анимации</h2>
+        <p>Сцены маршрута, иллюстрации с главной и 16 этюдов. Здесь удобно сравнивать движение и пересматривать отдельные сюжеты.</p>
+        <nav class="animation-index" aria-label="Разделы анимаций">
+          <a href="#journey"><span>01</span> Сцены маршрута <b>↑</b></a>
+          <a href="#delivery-sliders"><span>02</span> Слайдеры доставки <b>↓</b></a>
+          <a href="#home-animations"><span>03</span> С главной <b>↓</b></a>
+          <a href="#animation-studies"><span>04</span> 16 этюдов <b>↓</b></a>
+        </nav>
+      </header>
+      <section class="delivery-proposals" id="delivery-sliders" aria-labelledby="delivery-sliders-title">
+        <header class="delivery-section-title"><p class="eyebrow">ПЯТЬ ВИЗУАЛЬНЫХ ПОДХОДОВ</p><h3 id="delivery-sliders-title">Доставка в одном слайдере</h3><p>Пять визуальных подходов к одному маршруту. В каждом — все десять этапов, от заявки до вручения.</p></header>
+        <nav class="delivery-concept-links" aria-label="Варианты слайдеров"><a href="#concept-line">01 / Линейная геометрия</a><a href="#concept-solid">02 / Объёмные миниатюры</a><a href="#icon-slider-realistic">03 / Реалистичные иконки</a><a href="#icon-slider-dark">04 / Иконки и цифры</a><a href="#icon-slider-outline">05 / Контурные цифры</a></nav><div data-delivery-sliders></div><div id="icon-delivery-sliders" data-icon-sliders></div>
+      </section>
+      <section class="animation-group" id="home-animations" aria-labelledby="home-animations-title">
+        <div class="animation-group-head">
+          <h3 id="home-animations-title">Анимации с главной</h3>
+          
+        </div>
+<!-- home animation demos:start -->
+<div class="home-motion-lab"><article class="home-demo" id="demo-globe">
+      <div class="home-demo-stage"><div class="demo-globe-stage"><div class="home-globe" role="img" aria-label="Глобус: тонкие дуги международных маршрутов расходятся от Москвы"><div class="globe-shadow" aria-hidden="true"></div><canvas class="globe-surface" aria-hidden="true"></canvas><canvas class="globe-routes" aria-hidden="true"></canvas></div></div></div>
+      <div class="home-demo-caption"><div><h4>Глобус и маршруты</h4><p>Поворот сферы и дуги между точками.</p></div>
+      <button class="demo-replay" type="button" data-demo-replay="globe" aria-label="Повторить: Глобус и маршруты"><span aria-hidden="true">↻</span> Повторить</button></div>
+    </article>
+<article class="home-demo" id="demo-icons">
+      <div class="home-demo-stage"><div class="demo-icons"><div class="demo-icon"><div class="line-medallion service-medallion" data-line-icon="pickup" aria-hidden="true"></div><span>Отправить</span></div><div class="demo-icon"><div class="line-medallion service-medallion" data-line-icon="receive" aria-hidden="true"></div><span>Получить</span></div><div class="demo-icon"><div class="line-medallion service-medallion" data-line-icon="special" aria-hidden="true"></div><span>Специальный сервис</span></div></div></div>
+      <div class="home-demo-caption"><div><h4>Прорисовка иконок</h4><p>Три знака услуг с анимацией контура.</p></div>
+      <button class="demo-replay" type="button" data-demo-replay="icons" aria-label="Повторить: Прорисовка иконок"><span aria-hidden="true">↻</span> Повторить</button></div>
+    </article>
+<article class="home-demo" id="demo-handoff">
+      <div class="home-demo-stage"><figure class="feature-media feature-handoff" data-feature-motion><img class="feature-still" src="home/assets/feature-delivery.webp" alt="Курьер LINKKI передаёт посылку клиентке у дверей офиса" loading="lazy" width="1448" height="1086"><div class="feature-layers" aria-hidden="true"><img class="feature-plate" src="home/assets/feature-delivery-background.webp" alt="" loading="lazy" width="1448" height="1086"><div class="feature-actors"><div class="feature-actor feature-woman"><img class="feature-far-grip" src="home/assets/feature-delivery-far-grip.svg" alt="" loading="lazy" width="1448" height="1086"><img class="feature-cutout" src="home/assets/feature-delivery.webp" alt="" loading="lazy" width="1448" height="1086" data-mask="home/assets/feature-delivery-woman.svg" style="--subject-mask:url(home/assets/feature-delivery-woman.svg)"></div><div class="feature-actor feature-courier"><img class="feature-cutout" src="home/assets/feature-delivery.webp" alt="" loading="lazy" width="1448" height="1086" data-mask="home/assets/feature-delivery-courier.svg" style="--subject-mask:url(home/assets/feature-delivery-courier.svg)"><img class="feature-box-repair" src="home/assets/feature-delivery-box-repair.svg" alt="" loading="lazy" width="1448" height="1086"></div><div class="feature-actor feature-hand"><img class="feature-cutout" src="home/assets/feature-delivery.webp" alt="" loading="lazy" width="1448" height="1086" data-mask="home/assets/feature-delivery-hand.svg" style="--subject-mask:url(home/assets/feature-delivery-hand.svg)"></div></div></div><span class="media-rule" aria-hidden="true"></span></figure></div>
+      <div class="home-demo-caption"><div><h4>Передача коробки</h4><p>Курьер и получательница сближаются у входа.</p></div>
+      <button class="demo-replay" type="button" data-demo-replay="feature" aria-label="Повторить: Передача коробки"><span aria-hidden="true">↻</span> Повторить</button></div>
+    </article>
+<article class="home-demo" id="demo-packing">
+      <div class="home-demo-stage"><figure class="feature-media feature-packing" data-feature-motion><img class="feature-still" src="home/assets/feature-warehouse.webp" alt="Сотрудница LINKKI готовит коробку к отправке на складе" loading="lazy" width="1448" height="1086"><div class="feature-layers" aria-hidden="true"><img class="feature-plate" src="home/assets/feature-warehouse-background.webp" alt="" loading="lazy" width="1448" height="1086"><div class="feature-actors"><div class="feature-actor feature-subject"><img class="feature-cutout" src="home/assets/feature-warehouse.webp" alt="" loading="lazy" width="1448" height="1086" data-mask="home/assets/feature-warehouse-subject.svg" style="--subject-mask:url(home/assets/feature-warehouse-subject.svg)"></div></div></div><span class="media-rule" aria-hidden="true"></span></figure></div>
+      <div class="home-demo-caption"><div><h4>Упаковка на складе</h4><p>Сцена со слоями и фоном в режиме Darken.</p></div>
+      <button class="demo-replay" type="button" data-demo-replay="feature" aria-label="Повторить: Упаковка на складе"><span aria-hidden="true">↻</span> Повторить</button></div>
+    </article>
+<article class="home-demo" id="demo-timeline">
+      <div class="home-demo-stage"><div class="demo-route-stage"><div class="route" id="delivery-route" data-route role="region" aria-label="Этапы доставки">
+  <div class="route-timeline" role="group" aria-label="Выбрать этап"><div class="route-track" aria-hidden="true"><span></span></div><ol class="route-stops"><li><button type="button" class="route-stop" aria-label="Этап 1: Заказ клиента" aria-controls="route-slide-1"><span aria-hidden="true">01</span></button></li><li><button type="button" class="route-stop" aria-label="Этап 2: Отправитель" aria-controls="route-slide-2"><span aria-hidden="true">02</span></button></li><li><button type="button" class="route-stop" aria-label="Этап 3: Склад LINKKI в стране отправления" aria-controls="route-slide-3"><span aria-hidden="true">03</span></button></li><li><button type="button" class="route-stop" aria-label="Этап 4: Экспортное таможенное оформление" aria-controls="route-slide-4"><span aria-hidden="true">04</span></button></li><li><button type="button" class="route-stop" aria-label="Этап 5: Терминал убытия" aria-controls="route-slide-5"><span aria-hidden="true">05</span></button></li><li><button type="button" class="route-stop" aria-label="Этап 6: Международный перевозчик" aria-controls="route-slide-6"><span aria-hidden="true">06</span></button></li><li><button type="button" class="route-stop" aria-label="Этап 7: Терминал прибытия" aria-controls="route-slide-7"><span aria-hidden="true">07</span></button></li><li><button type="button" class="route-stop" aria-label="Этап 8: Импортное таможенное оформление" aria-controls="route-slide-8"><span aria-hidden="true">08</span></button></li><li><button type="button" class="route-stop" aria-label="Этап 9: Склад LINKKI в стране назначения" aria-controls="route-slide-9"><span aria-hidden="true">09</span></button></li><li><button type="button" class="route-stop" aria-label="Этап 10: Получатель" aria-controls="route-slide-10"><span aria-hidden="true">10</span></button></li></ol></div>
+  <div class="route-slides"><article class="route-slide is-active" id="route-slide-1" aria-labelledby="route-stage-1">
+    <p class="route-kicker">ЭТАП 01 <span>/ 10</span></p><h3 id="route-stage-1">Заказ клиента</h3><p class="route-description">Клиент оформляет заказ на доставку.</p><div class="line-medallion route-medallion" data-line-icon="order" aria-hidden="true"></div></article><article class="route-slide" id="route-slide-2" aria-labelledby="route-stage-2">
+    <p class="route-kicker">ЭТАП 02 <span>/ 10</span></p><h3 id="route-stage-2">Отправитель</h3><p class="route-description">Отправитель передаёт посылку или груз для перевозки.</p><div class="line-medallion route-medallion" data-line-icon="pickup" aria-hidden="true"></div></article><article class="route-slide" id="route-slide-3" aria-labelledby="route-stage-3">
+    <p class="route-kicker">ЭТАП 03 <span>/ 10</span></p><h3 id="route-stage-3">Склад LINKKI в стране отправления</h3><p class="route-description">Груз поступает на склад для подготовки к отправке.</p><div class="line-medallion route-medallion" data-line-icon="warehouse" aria-hidden="true"></div></article><article class="route-slide" id="route-slide-4" aria-labelledby="route-stage-4">
+    <p class="route-kicker">ЭТАП 04 <span>/ 10</span></p><h3 id="route-stage-4">Экспортное таможенное оформление</h3><p class="route-description">На этом этапе оформляют вывоз груза из страны отправления.</p><div class="line-medallion route-medallion" data-line-icon="document" aria-hidden="true"></div></article><article class="route-slide" id="route-slide-5" aria-labelledby="route-stage-5">
+    <p class="route-kicker">ЭТАП 05 <span>/ 10</span></p><h3 id="route-stage-5">Терминал убытия</h3><p class="route-description">Груз поступает в терминал перед международной перевозкой.</p><div class="line-medallion route-medallion" data-line-icon="terminal" aria-hidden="true"></div></article><article class="route-slide" id="route-slide-6" aria-labelledby="route-stage-6">
+    <p class="route-kicker">ЭТАП 06 <span>/ 10</span></p><h3 id="route-stage-6">Международный перевозчик</h3><p class="route-description">Груз следует в страну назначения.</p><div class="line-medallion route-medallion" data-line-icon="plane" aria-hidden="true"></div></article><article class="route-slide" id="route-slide-7" aria-labelledby="route-stage-7">
+    <p class="route-kicker">ЭТАП 07 <span>/ 10</span></p><h3 id="route-stage-7">Терминал прибытия</h3><p class="route-description">Терминал принимает груз после международной перевозки.</p><div class="line-medallion route-medallion" data-line-icon="terminal" aria-hidden="true"></div></article><article class="route-slide" id="route-slide-8" aria-labelledby="route-stage-8">
+    <p class="route-kicker">ЭТАП 08 <span>/ 10</span></p><h3 id="route-stage-8">Импортное таможенное оформление</h3><p class="route-description">Груз проходит таможенное оформление в стране назначения.</p><div class="line-medallion route-medallion" data-line-icon="scan" aria-hidden="true"></div></article><article class="route-slide" id="route-slide-9" aria-labelledby="route-stage-9">
+    <p class="route-kicker">ЭТАП 09 <span>/ 10</span></p><h3 id="route-stage-9">Склад LINKKI в стране назначения</h3><p class="route-description">На складе груз готовят к доставке получателю.</p><div class="line-medallion route-medallion" data-line-icon="warehouse" aria-hidden="true"></div></article><article class="route-slide" id="route-slide-10" aria-labelledby="route-stage-10">
+    <p class="route-kicker">ЭТАП 10 <span>/ 10</span></p><h3 id="route-stage-10">Получатель</h3><p class="route-description">Груз доставляют к дверям получателя.</p><div class="line-medallion route-medallion" data-line-icon="receive" aria-hidden="true"></div></article></div>
+  <div class="route-controls"><button type="button" class="route-play"><span class="route-play-symbol" aria-hidden="true"></span><span data-play-text>Пауза</span></button><div class="route-arrows"><button type="button" class="route-arrow route-previous" aria-label="Предыдущий этап"><svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12h17m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button><button type="button" class="route-arrow route-next" aria-label="Следующий этап"><svg class="arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 12h17m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div></div>
+  <p class="visually-hidden" data-route-status role="status"></p><noscript><ol class="route-fallback"><li>Заказ клиента</li><li>Отправитель</li><li>Склад LINKKI в стране отправления</li><li>Экспортное таможенное оформление</li><li>Терминал убытия</li><li>Международный перевозчик</li><li>Терминал прибытия</li><li>Импортное таможенное оформление</li><li>Склад LINKKI в стране назначения</li><li>Получатель</li></ol></noscript>
+</div></div></div>
+      <div class="home-demo-caption"><div><h4>Таймлайн доставки</h4><p>Десять этапов с ручным переключением.</p></div>
+      <button class="demo-replay" type="button" data-demo-replay="route" aria-label="Повторить: Таймлайн доставки"><span aria-hidden="true">↻</span> Повторить</button></div>
+    </article></div>
+<!-- home animation demos:end -->
+      </section>
+      <section class="animation-group" id="animation-studies" aria-labelledby="studies-title">
+        <div class="animation-group-head">
+          <h3 id="studies-title">16 этюдов движения</h3>
+        </div>
+        <p class="animation-hint">Выберите сюжет, замедлите движение или откройте сцену крупнее для покадрового просмотра.</p>
+        <div class="motion-workbench" data-motion-gallery data-embedded="true" data-card-heading="h4"></div>
+        <noscript><p>Для просмотра этюдов включите JavaScript.</p></noscript>
+      </section>
+    </div>
+  </section>
+
+  <section class="approach wrap" id="approach">
+    <span class="eyebrow">LINKKI — соединяем важное</span><h2>Много этапов.<br> Одна команда рядом.</h2>
+    <div class="approach-grid"><div><span>01 / Удобно</span><h3>От двери до двери</h3><p>Забираем груз у отправителя<br> и привозим получателю.</p></div><div><span>02 / Понятно</span><h3>С вниманием к деталям</h3><p>Документы, маркировка, таможня —<br> помогаем пройти весь маршрут.</p></div><div><span>03 / По-человечески</span><h3>Люди для людей</h3><p>За каждой отправкой — задачи<br> вашей компании. Мы это понимаем.</p></div></div>
+  </section>
+
+  <section class="questions wrap" id="questions"><div><span class="eyebrow">Перед отправкой</span><h2>Остались<br> вопросы?</h2><a class="text-link" href="https://linkki.webanatomy.ru/faq/" target="_blank" rel="noopener">Все вопросы и ответы <span aria-hidden="true">↗</span></a></div><div class="faq-list">
+    <details open><summary>Нужно ли везти груз на склад?<span aria-hidden="true"></span></summary><p>Нет. Модель доставки LINKKI — от двери до двери. Курьер забирает груз у отправителя и доставляет его по адресу получателя.</p></details>
+    <details><summary>Как подготовить отправление?<span aria-hidden="true"></span></summary><p>Упакуйте и промаркируйте груз, подготовьте накладную и необходимые таможенные документы. Состав документов зависит от груза и направления перевозки.</p><a class="text-link" href="https://linkki.webanatomy.ru/commercial/" target="_blank" rel="noopener">О коммерческом инвойсе ↗</a></details>
+    <details><summary>Что происходит на таможне?<span aria-hidden="true"></span></summary><p>Международный груз проходит экспортное и импортное оформление. Заранее подготовленные документы помогают пройти этот этап. LINKKI сопровождает отправление на его пути.</p><a class="text-link" href="https://linkki.webanatomy.ru/customs/" target="_blank" rel="noopener">О таможенном оформлении ↗</a></details>
+  </div></section>
+
+  <section class="closing"><div class="wrap closing-inner"><span class="eyebrow">Ваш следующий маршрут</span><h2>Отправляйте грузы.<br> <span>Продолжайте своё дело.</span></h2><a class="closing-cta" href="https://linkki.webanatomy.ru/" target="_blank" rel="noopener"><span>Перейти на сайт LINKKI</span><span class="round-arrow" aria-hidden="true">↗</span></a></div></section>
+</main>
+<footer class="footer wrap"><a href="#top" aria-label="LINKKI — наверх"><img src="assets/linkki-logo.png" width="158" height="26" alt="LINKKI"></a><span>Международная доставка для бизнеса</span><a href="#top">В начало <span aria-hidden="true">↑</span></a></footer>
+<nav class="scene-nav" aria-label="Быстрый переход по маршруту"><a href="#step-1" aria-label="01 — Забор груза"><span>01</span></a><a href="#step-2" aria-label="02 — Подготовка"><span>02</span></a><a href="#step-3" aria-label="03 — Перевозка"><span>03</span></a><a href="#step-4" aria-label="04 — Оформление"><span>04</span></a><a href="#step-5" aria-label="05 — Доставка"><span>05</span></a><a href="#step-6" aria-label="06 — Вручение"><span>06</span></a></nav>
+</body>
+</html>
